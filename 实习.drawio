@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T03:21:46.443Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Q9tkHfT_MaVnmwxoZOmU" version="22.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-04T03:24:59.679Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IsNPGz82QNOeoti9xfaI" version="22.1.5" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1674" dy="790" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1000000" background="none" math="0" shadow="0">
       <root>
@@ -389,6 +389,11 @@
         <mxCell id="uqgPb0oIe-EF0jo7viH9-50" value="薪资周期规则&lt;br&gt;考核周期规则" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="uqgPb0oIe-EF0jo7viH9-49">
           <mxGeometry y="40" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uqgPb0oIe-EF0jo7viH9-51" value="薪资月" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="1110" width="90" height="80" as="geometry" />
         </mxCell>
@@ -436,16 +441,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uqgPb0oIe-EF0jo7viH9-65" value="发薪活动" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="1010" width="160" height="230" as="geometry" />
+          <mxGeometry x="850" y="1050" width="130" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="uqgPb0oIe-EF0jo7viH9-66" value="paying_activity_id&lt;br&gt;cal_biz_id&lt;br&gt;cal_version&lt;br&gt;算薪范围&lt;br&gt;算薪人员&lt;br&gt;薪资计算规则&lt;br&gt;薪资计算周期&lt;br&gt;考勤周期" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="uqgPb0oIe-EF0jo7viH9-65">
-          <mxGeometry y="40" width="160" height="190" as="geometry" />
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-66" value="paying_activity_id&lt;br&gt;cal_biz_id&lt;br&gt;cal_version&lt;br&gt;算薪范围&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;算薪人员&lt;br&gt;薪资计算规则&lt;br&gt;薪资计算周期&lt;br&gt;考勤周期&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="uqgPb0oIe-EF0jo7viH9-65">
+          <mxGeometry y="40" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="uqgPb0oIe-EF0jo7viH9-65" source="uqgPb0oIe-EF0jo7viH9-66" target="uqgPb0oIe-EF0jo7viH9-66">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uqgPb0oIe-EF0jo7viH9-67" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1. 关于发薪活动中的字段为啥会有薪资计算周期和考勤周期 以及为啥会有cal_biz_id和cal_version我感觉这两个字段表示一个意思&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="150" y="1413" width="820" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uqgPb0oIe-EF0jo7viH9-68" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 25px;&quot;&gt;备注：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="1373" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-70" value="实例化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1108" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
