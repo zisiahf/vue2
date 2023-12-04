@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T05:20:04.010Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="sOSyrCdFWOyGpdGyFqna" version="22.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-04T05:31:13.670Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FxqEGQac18yYso3oqQM0" version="22.1.5" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1674" dy="790" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1000000" background="none" math="0" shadow="0">
       <root>
@@ -524,8 +524,19 @@
         <mxCell id="uqgPb0oIe-EF0jo7viH9-91" value="累加器&lt;br&gt;salary_accumulator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="2770" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-92" target="uqgPb0oIe-EF0jo7viH9-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uqgPb0oIe-EF0jo7viH9-92" value="工资条模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="2890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-93" target="uqgPb0oIe-EF0jo7viH9-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="2725" />
+              <mxPoint x="710" y="3100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="uqgPb0oIe-EF0jo7viH9-93" value="薪资方案&lt;br&gt;salary_schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="2710" width="120" height="60" as="geometry" />
@@ -539,6 +550,38 @@
               <mxPoint x="490" y="2800" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="2980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-106" value="薪资月" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="2960" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-107" value="核算组&lt;br&gt;salary_emp_rule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="3070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-108" target="uqgPb0oIe-EF0jo7viH9-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-108" value="睿人事-人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="3070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-110" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;发薪活动&lt;/font&gt;&lt;br&gt;paying_activity&lt;br&gt;paying_activity_id&lt;br&gt;cal_biz_id&lt;br&gt;schema_id&lt;br&gt;schema_version&lt;br&gt;emp_rule_id&lt;br&gt;cal_scope&lt;br&gt;算薪期间&lt;br&gt;考勤期间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="2760" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-115" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="2870" as="sourcePoint" />
+            <mxPoint x="800" y="2870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-116" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 21px;&quot;&gt;备注：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="3163" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-117" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1. 这里的薪资月是哪里来的，为什么需要用白色标记，难道和睿人事-人员一样不是薪酬组关心的问题&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="3190" width="690" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
