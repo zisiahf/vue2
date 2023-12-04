@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T05:43:56.089Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YQw1dvqfVTXFbwtXnBdd" version="22.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-04T05:44:51.910Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OrhEctz-iEG8blP3H3p6" version="22.1.5" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1674" dy="790" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1000000" background="none" math="0" shadow="0">
       <root>
@@ -617,7 +617,7 @@
           <mxGeometry width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uqgPb0oIe-EF0jo7viH9-117" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1. 这里的薪资月是哪里来的，为什么需要用白色标记，难道和睿人事-人员一样不是薪酬组关心的问题&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uqgPb0oIe-EF0jo7viH9-131">
-          <mxGeometry x="65" y="27" width="690" height="30" as="geometry" />
+          <mxGeometry x="68" y="27" width="690" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uqgPb0oIe-EF0jo7viH9-132" value="算薪范围" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="3180" width="120" height="40" as="geometry" />
