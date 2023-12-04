@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T02:34:56.973Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="E7GHeO6rXS_mT0qhn1tl" version="22.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-04T02:48:33.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GCJFiFw8nMUqPcBGfRQk" version="22.1.5" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1674" dy="790" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1000000" background="none" math="0" shadow="0">
       <root>
@@ -301,10 +301,74 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JvwCJ3VhGNYuQ_1X4Es_" name="本周目标">
-    <mxGraphModel dx="1674" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1000000" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-1" target="uqgPb0oIe-EF0jo7viH9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-1" value="创建薪资项" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-8" target="uqgPb0oIe-EF0jo7viH9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-8" value="创建薪资方案" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-10" value="创建发薪活动" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="780" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-17" target="uqgPb0oIe-EF0jo7viH9-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-17" value="针对发薪活动算薪算税" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="960" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-23" value="个税申报/缴款" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-25" target="uqgPb0oIe-EF0jo7viH9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-25" value="扣缴义务人维护" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-26" target="uqgPb0oIe-EF0jo7viH9-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="440" />
+              <mxPoint x="730" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-26" target="uqgPb0oIe-EF0jo7viH9-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-26" value="人员信息采集&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-28" target="uqgPb0oIe-EF0jo7viH9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-28" value="专项附加扣除更新" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="780" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uqgPb0oIe-EF0jo7viH9-30" target="uqgPb0oIe-EF0jo7viH9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-30" value="养老金扣除更新" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="780" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uqgPb0oIe-EF0jo7viH9-35" value="产品业务需求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="280" y="183" width="160" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
